@@ -19,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
 
         long time = 3000; // after 3 sec go next activity
 
-        new handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(SplashScreen.this, MainActivity.class);
