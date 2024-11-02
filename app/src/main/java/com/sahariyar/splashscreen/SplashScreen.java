@@ -17,7 +17,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        long time = 3000; // after 3 sec go next activity
+        long time = 4000; // after 4 sec go next activity
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
